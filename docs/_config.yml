@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Feed this much
-email: your-email@example.com
+email: test@kth.se
 description: >- # this means to ignore newlines until "baseurl:"
   A II1306 Projct 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -28,9 +28,11 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme
+
+gem "github-pages", group: :jekyll_plugins
 
 # Exclude from processing.
 # The following items will not be processed, by default.
