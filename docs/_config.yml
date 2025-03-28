@@ -21,7 +21,7 @@
 title: Feed this much
 email: test@kth.se
 description: >- # this means to ignore newlines until "baseurl:"
-  A II1306 Projct 
+  A II1305 Projct 
 baseurl: "/feed-this-much" # the subpath of your site, e.g. /blog
 url: "https://bobach.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/logo.png"
