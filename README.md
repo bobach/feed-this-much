@@ -20,6 +20,8 @@ Activate the virtual environment by running `source .venv/bin/activate` and run 
 Navigate to `frontend/feed-this-much-client` and run `npm i` and `npm install next`
 
 ## How to run django development server locally
+Navigate to `backend/feed-this-much` folder and open `settings.py` file, change `DEBUG=False` to `DEBUG=True`.
+
 Navigate to `backend` folder and run `python manage.py runserver`
 
 ## How to run NextJS (ReactJS) development server locally
