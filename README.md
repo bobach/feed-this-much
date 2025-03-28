@@ -4,7 +4,12 @@ II1305 Project
 # Windows
 If you are using Windows, you can install WSL and follow the rest of instructions. 
 
-## How to set up local env
+# Folder structure
+
+**backend**: all the code regarding the django backend
+**frontend**: all the code regarding the react frontend
+
+# How to set up local env
 Project has some dependencies that need to be installed. We use `uv` package manager to handle the dependencies. 
 
 **uv**: Use the link (https://github.com/astral-sh/uv) to install
@@ -12,4 +17,8 @@ Project has some dependencies that need to be installed. We use `uv` package man
 Create the virtual environment by running `uv venv`
 Activate the virtual environment by running `source .venv/bin/activate` and run `uv sync` to install the dependencies
 
-Run the local development server by `python manage.py runserver`
+## How to run django development server locally
+Navigate to `backend` folder and run `python manage.py runserver`
+
+## How to run NextJS (ReactJS) development server locally
+Navigate to `frontend/feed-this-much-client` folder and run `npm run dev`
