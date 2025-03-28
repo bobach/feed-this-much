@@ -17,6 +17,8 @@ Project has some dependencies that need to be installed. We use `uv` package man
 Create the virtual environment by running `uv venv`
 Activate the virtual environment by running `source .venv/bin/activate` and run `uv sync` to install the dependencies
 
+Navigate to `frontend/feed-this-much-client` and run `npm install next`
+
 ## How to run django development server locally
 Navigate to `backend` folder and run `python manage.py runserver`
 
