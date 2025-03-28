@@ -11,6 +11,7 @@ We are developing a website that generates personalized feeding schedules for pe
 
 The platform is specifically designed for cat and dog owners.
 
+[Link to another page](./about)
 
 ## Project Feed This Much
 
@@ -24,6 +25,7 @@ food (kibble)
 ## How to do it?
 You can login your pet(s) and their food(s). Based on the physical state of your pet and your meal plan you will receive a feeding schedule based on the food you own or plan on feeding your pet(s). 
 
+![Picture](./assets/img/dog04corgidancing.png)
 
 ## The Team
 - Alicia Emily Van Zijl (product owner)
